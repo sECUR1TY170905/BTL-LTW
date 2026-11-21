@@ -1,0 +1,31 @@
+# Menu image cache
+
+Images come from existing Product.image URLs in the running catalog; no product content or database images were changed.
+
+- `/menu-images/3b973ad526928012.webp`: https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=600&q=70&auto=format
+- `/menu-images/de77f466318aeb22.webp`: https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=70&auto=format
+- `/menu-images/b8d1593d7b6b5935.webp`: https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=70&auto=format
+- `/menu-images/a7a6892e5dbaa38d.webp`: https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&q=70&auto=format
+- `/menu-images/fb0ad8d46da17434.webp`: https://images.unsplash.com/photo-1534778101976-62847782c213?w=600&q=70&auto=format
+- `/menu-images/de7ca649c0898885.webp`: https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=70&auto=format
+- `/menu-images/476a8ab3720457bc.webp`: https://www.bing.com/images/search?view=detailV2&ccid=gELx68XU&id=DD7928388EC08C5431F0016BC1DA5F83EC2E57EE&thid=OIP.gELx68XUoYfmDybep0vfPQHaEy&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f30994372%2fpexels-photo-30994372.jpeg%3fcs%3dsrgb%26dl%3dpexels-optical-chemist-340351297-30994372.jpg%26fm%3djpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8042f1ebc5d4a187e60f26dea74bdf3d%3frik%3d7lcu7INf2sFrAQ%26pid%3dImgRaw%26r%3d0&exph=3432&expw=5301&q=imag&FORM=IRPRST&ck=B63C416F70EE427893556B07B43646EA&selectedIndex=1&itb=0
+- `/menu-images/f199a4cf4f53bfee.webp`: https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=600&q=70&auto=format
+- `/menu-images/eb432855bb007e90.webp`: https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=600&q=70&auto=format
+- `/menu-images/f2072661b9456bde.webp`: https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&q=70&auto=format
+- `/menu-images/bf283910a2d34bd9.webp`: https://images.unsplash.com/photo-1502741224143-90386d7f8c82?w=600&q=70&auto=format
+- `/menu-images/8f05d0497ea576d2.webp`: https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600&q=70&auto=format
+- `/menu-images/dfd94beda3b69f1b.webp`: https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=70&auto=format
+- `/menu-images/c0287295f1575714.webp`: https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=70&auto=format
+- `/menu-images/19e048981e1e6c50.webp`: https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=70&auto=format
+- `/menu-images/e367662b94a41194.webp`: https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=70&auto=format
+- `/menu-images/52c088476a563be0.webp` (Trà Sữa Oolong): https://images.pexels.com/photos/11160113/pexels-photo-11160113.jpeg — "Photo of a Milk Tea Drink" by Shameel mukkath, Pexels License, https://www.pexels.com/photo/photo-of-a-milk-tea-drink-11160113/
+- `/menu-images/2d417a7dd182546b.webp` (Hồng Trà Sữa): https://images.pexels.com/photos/12433998/pexels-photo-12433998.png — "Milk Tea in a Tall Drinking Glass" by Vitaly Gorbachev, Pexels License, https://www.pexels.com/photo/milk-tea-in-a-tall-drinking-glass-12433998/
+- `/menu-images/292050b1713c49a7.webp`: https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=70&auto=format
+
+## Replacements for wrong or removed photos
+
+These Product.image URLs no longer show the right drink (HTTP 404, or a different photo), so the cache maps them to a replacement photo of the same drink. Products seeded before the fix keep the old URL and still get the right image.
+
+- `/menu-images/720278b0a4a17d19.webp` (Trà Vải Hoa Hồng, replaces https://images.unsplash.com/photo-1595981234057-1cb4ffa6c64b?w=600&q=70&auto=format): https://images.pexels.com/photos/12033286/pexels-photo-12033286.jpeg — "A Lychee Mocktail on a Coaster" by Augustinus Martinus Noppé, Pexels License, https://www.pexels.com/photo/a-lychee-mocktail-on-a-coaster-12033286/
+- `/menu-images/cc83d16359634d9f.webp` (Trà Xanh Matcha Latte, replaces https://images.unsplash.com/photo-1536013455834-d44bbf3c8b06?w=600&q=70&auto=format): https://images.unsplash.com/photo-1560148196-df61132466ce?w=600&q=70&auto=format — "Matcha latte" by Jason Leung, Unsplash License, https://unsplash.com/photos/matcha-latte-rW_EmeV7dEU
+- `/menu-images/2d417a7dd182546b.webp` (Trà Sữa Oolong and Hồng Trà Sữa in data seeded before the fix, replaces https://images.unsplash.com/photo-1571805341302-f857308690e3?w=600&q=70&auto=format, which is a salad photo): see the Hồng Trà Sữa source above. The seed now gives each milk tea its own photo.

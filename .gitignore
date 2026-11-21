@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+.cache/
+coverage/
+**/coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+apikey.txt
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test output
+playwright-report/
+test-results/
+.nyc_output/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ghi chú cho AI/agent, tài liệu trình bày cá nhân và dữ liệu demo một lần: giữ trên máy, không đưa lên Git
+AGENTS.md
+PROJECT_MEMORY.md
+claude_de_xuat.md
+HUONG_DAN_*.md
+docs/superpowers/
+docs/archive/
+docs/upgrade-progress.md
+docs/frontend-reference-notes.md
+docs/kich-ban-video-trinh-bay.md
+docs/loi-van-trinh-bay.md
+docs/defense-notes.md
+docs/demo-data-defense.md
+docs/workforce-history-demo.md
+docs/Bao_cao_chuc_nang_kien_truc_thiet_ke_May_Cafe.docx
+docs/hinh-trinh-bay/
+scripts/archive-demo-data-20261116.mjs
+scripts/setup-workforce-history-demo.mjs
